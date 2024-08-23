@@ -11,14 +11,19 @@
 <body>
     <h1 Id="title">New Students Survey Form</h1>
     <p id="description"> <strong> Thank you for taking the time to help us improve the platform!</strong></p>
+
     <div class="align">
         <form id="survey-form">
-    
-            <label id="name-label"> Name <br><input required id="name" type="text" placeholder="Enter your name"></label>
+
+            <label id="name-label"> Name <br><input required id="name" type="text"
+                    placeholder="Enter your name"></label>
             <label id="email-label">Email <br> <input required id="email" type="email"
                     placeholder="Enter your email"></label>
             <label id="number-label">Age(optional) <br><input id="number" min="18" max="28" type="number"
                     placeholder="Age"></label>
+
+
+
             <label class="level">Choose your current level</label>
             <select id="dropdown">
                 <option value="disabled">Select current level</option>
@@ -27,6 +32,7 @@
                 <option> Intermediate</option>
                 <option>Advance</option>
             </select>
+
             <p class="about">How did you hear about us?</p>
             <div class="radio">
                 <input checked type="radio" id="socials" value="Social Media" name="options">
@@ -36,6 +42,8 @@
                 <input checked type="radio" id="other" value="Others" name="options">
                 <label class="padding" for="other">Others</label>
             </div>
+
+
             <label class="level">Choose your preferred <time datetime=""></time></label>
             <select id="dropdown">
                 <option value="disabled">Select desired time </option>
@@ -44,6 +52,8 @@
                 <option> 02:00 PM</option>
                 <option>04:00 PM</option>
             </select>
+
+
             <label class="level"> Which instructors would you like to take class with?<br> check all that apply.</label>
             <div class="radio">
                 <input type="checkbox" id="inst 1" value="inst 1" name="inst 1">
@@ -67,12 +77,15 @@
                 <input type="checkbox" id="inst 10" value="inst 10" name="inst 10">
                 <label for="inst 10">Ethan Dutta</label><br><br>
             </div>
+
             <label class="level" for="message">Send us a message</label>
             <textarea id="message" placeholder="Type your message here..."></textarea>
-            
+
             <button type="submit" id="submit">Send</button>
-            
-           </form>
-         </div>
-     </body>
+
+        </form>
+    </div>
+
+</body>
+
 </html>
