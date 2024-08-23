@@ -56,3 +56,20 @@ h1:hover {
     font-size: 20px;
 
 }
+.level {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: -8px;
+
+}
+
+#dropdown {
+    width: 91%;
+    height: 40px;
+}
+
+.about {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
